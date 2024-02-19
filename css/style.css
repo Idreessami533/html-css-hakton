@@ -1,0 +1,328 @@
+body{
+	    overflow-x: hidden;
+}
+.header{position: absolute;width: 100%;z-index: 1;padding: 25px 0px;}
+.header .mein{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header .mein img{}
+.header .mein p{
+    font-size: 19px;
+    letter-spacing: 7px;
+    position: relative;
+    color: #fff;
+}
+.header .mein p::before{
+	 content: "";
+	 background-color: #46fda0;
+	 position: absolute;
+	 width: 205px;
+	 height: 4px;
+	 bottom: -2px;
+}
+.banner{
+	background-image: url(../images/background-hero.svg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	height: 90vh;
+	padding: 100px 0px;
+	display: flex;
+	align-items: center;
+}
+.banner::before{
+	content: "";
+	position: absolute;
+	width: 211px;
+	background-image: url(../images/left1.svg);
+	background-position: center;
+	background-size: cover;
+	height: 172px;
+	bottom: 38px;
+	left: -69px;
+	top: 50%;
+	transform: translateY(-82%);
+}
+.banner::after{
+		 content: "";
+		 position: absolute;
+		 width: 200px;
+		 background-image: url(../images/left2.svg);
+		 background-position: center;
+		 background-size: cover;
+		 height: 178px;
+		 bottom: 11px;
+		 right: -76px;
+		 top: 50%;
+		 transform: translateY(-9%);
+}
+.banner .mein {
+}
+.banner .mein .content{
+    text-align: center;
+}
+.banner .mein h1{
+    color: #fff;
+    font-size: 45px;
+    position: relative;
+}
+.banner .mein h1 span::before{
+	content: "";
+	background-color: #46fda0;
+	position: absolute;
+	left: 501px;
+	height: 4px;
+	width: 163px;
+	bottom: -3px;
+}
+.banner .mein h2{
+    color: #fff;
+    font-size: 35px;
+}
+.banner .mein a{
+	color: #000;
+	text-decoration: none;
+	padding: 13px 40px;
+	font-size: 15px;
+	border-radius: 7px;
+	display: inline-grid;
+	background-color: #46fda0;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+
+
+.banner .mein a:hover{
+	 text-decoration: none;
+	 color: #fff;
+	 background-color: #a4a1a6;
+}
+.banner .mobile{
+    position: absolute;
+    bottom: -277px;
+}
+.banner .mobile img{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.template{
+	    padding: 100px 0px;
+    background-color: #ede8e8;
+}
+.template .mein{
+    display: flex;
+    column-gap: 65px;
+}
+.template .mein .box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.template .mein .box h4{
+    font-size: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 43px;
+    width: 43px;
+    text-align: center;
+}
+.template .mein .box h2{
+    color: #24053E;
+}
+.template .mein .box p{
+    color: #575656;
+}
+.test{
+    padding: 120px 0px;
+}
+.test .mein{
+    display: flex;
+    flex-wrap: wrap;
+}
+.test .mein .des{
+    position: absolute;
+    right: 9px;
+    bottom: -62px;
+}
+.test .mein .des img{
+    width: 75%;
+}
+.test .mein .pic{
+    width: 50%;
+    position: relative;
+}
+.test .mein .pic img{
+    width: 55%;
+    position: absolute;
+    right: -34px;
+    z-index: -7;
+    bottom: 37px;
+}
+.test .mein .box{
+    background-color: #34075a;
+    width: 50%;
+    padding: 40px 40px;
+    position: relative;
+}
+.test .mein .box h2{
+    color: #fff;
+    font-size: 35px;
+}
+.test .mein .box p{
+    color: #b6b2b2;
+    font-size: 16px;
+}
+.test .mein .box a{
+	color: #000;
+	text-decoration: none;
+	padding: 13px 40px;
+	font-size: 15px;
+	border-radius: 7px;
+	display: inline-grid;
+	background-color: #46fda0;
+	text-transform: capitalize;
+	font-weight: 700;
+}
+.test .mein .box a:hover{
+    background-color: #a4a1a6;
+}
+.footer{
+	text-align: center;
+}
+.footer .mein{
+    padding: 20px 0px;
+}
+.footer .mein img{}
+.footer .mein .icon{}
+.footer .icon img{
+    margin: 20px 8px;
+}
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+	body{
+		    
+	}
+	.banner .mein h1 span::before {
+		left: 294px;
+	}
+	.banner .mobile {
+		    bottom: -212px;
+	}
+.template .mein {
+    display: flex;
+    flex-direction: column;
+    row-gap: 51px;
+}
+.test .mein .box {
+	width: 100%;
+    padding: 82px 33px 
+}
+.test .mein .pic img {
+    width: 73%;
+    position: absolute;
+    right: -127px;
+    z-index: 0;
+    bottom: -22px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+	.banner .mein h1 span::before {
+		 left: -6px;
+		     width: 131px
+	}
+	   .banner::before {
+	   	display: none;
+	   }
+	   .banner::after {
+	   	display: none;
+	   }
+	   .banner {
+	   	height: 70vh;
+	   }
+	   .banner .mein h1 {
+	   	    font-size: 32px;
+	   }
+	   .banner .mein h1 span{
+	   	position: relative;
+	   }
+	   .banner .mobile {
+	   	bottom: -160px;
+	   }
+	.template .mein {
+display: flex;
+    flex-wrap: wrap;
+    row-gap: 55px;
+ }
+ .template .mein .box {
+    /* text-align: center; 
+     display: flex;*/
+    }
+.template .mein .box h4 {
+	    /* height: 43px;*/
+}
+.test .mein .box {
+	     width: 100%;
+}
+.test .mein .pic img {
+    width: 76%;
+    
+    right: -72px;
+    z-index: 0;
+    bottom: -5px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
